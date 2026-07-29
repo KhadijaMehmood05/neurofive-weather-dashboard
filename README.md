@@ -28,4 +28,27 @@ This project uses the free public **Open-Meteo API**:
 - Geocoding API → Converts city names into coordinates
 - Forecast API → Fetches current weather and forecast data
 
-## 📂 Project Structure
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/KhadijaMehmood05/neurofive-weather-dashboard.git
+Open the project folder.
+Run index.html using Live Server in VS Code.
+Search any city name to view live weather information.
+🔄 Handling Async Loading and Error States
+
+The application uses JavaScript async/await with the Fetch API to handle API requests. A loading message is displayed while the weather data is being fetched, improving user experience during network delays. Error handling is implemented using try...catch to display a friendly message when a city is not found or an API request fails.
+
+📸 Demo
+
+The dashboard allows users to search different cities and displays live weather information with temperature, conditions, icons, and a 3-day forecast.
+
+👩‍💻 Developed By
+
+Khadija Mehmood
+
+Frontend Web Development Internship
+Neurofive Solutions
