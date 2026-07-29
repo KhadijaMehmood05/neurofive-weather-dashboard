@@ -34,7 +34,7 @@ This project uses the free public **Open-Meteo API** to fetch live weather infor
 
 The application uses **JavaScript async/await with the Fetch API** to handle requests to the Open-Meteo weather API. A loading state is displayed while the API request is in progress so users know that data is being fetched. Error handling is implemented using **try/catch** to manage invalid city searches and failed API requests. A friendly error message is displayed whenever weather data cannot be retrieved.
 
-## 📸 Demo
+##  Demo
 
 The weather dashboard allows users to search different cities and view live weather details including temperature, weather conditions, icons, and a 3-day forecast.
 
