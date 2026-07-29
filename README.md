@@ -1,41 +1,46 @@
-🌤️ Weather Dashboard
+# 🌤️ Weather Dashboard
 
-A responsive weather dashboard that fetches real-time weather information using the Open-Meteo API. Users can search for any city and view current weather conditions along with a 3-day forecast.
+A responsive weather dashboard that fetches real-time weather information using the **Open-Meteo API**. Users can search for any city and view current weather conditions, temperature, weather icons, and a **3-day forecast**.
 
-The project is built using HTML, CSS, and JavaScript with Fetch API and async/await for handling live weather data.
+This project demonstrates API integration using **JavaScript Fetch API**, **async/await**, and dynamic DOM updates to display live weather data.
 
-🚀 Features
-🔍 Search weather by city name
-🌡️ Display current temperature
-🌤️ Show weather conditions with icons
-📅 Display a 3-day weather forecast
-⏳ Loading state while fetching weather data
-❌ Friendly error handling for invalid city searches
-📱 Responsive design for different screen sizes
-🛠️ Technologies Used
-HTML5
-CSS3
-JavaScript (ES6)
-Fetch API
-Async/Await
-Open-Meteo Weather API
-🌐 API Used
+## 🚀 Features
 
-This project uses the free public Open-Meteo API.
+- 🔍 Search weather by city name
+- 🌡️ Display current temperature
+- 🌤️ Show weather conditions with icons
+- 📅 Display a 3-day weather forecast
+- ⏳ Loading state while fetching weather data
+- ❌ Friendly error handling for invalid city searches
+- 📱 Responsive design for different screen sizes
 
-Geocoding API is used to convert city names into geographical coordinates.
-Forecast API is used to fetch current weather information and a 3-day forecast.
-🔄 Async Loading and Error Handling
+## 🛠️ Technologies Used
 
-I used JavaScript async/await with the Fetch API to handle requests to the Open-Meteo weather API. A loading message is displayed while the API request is in progress so users know that data is being fetched. I implemented try/catch error handling to manage failed requests and invalid city searches. A friendly error message is shown when weather data cannot be retrieved, providing a better user experience.
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Fetch API**
+- **Async/Await**
+- **Open-Meteo Weather API**
 
-📸 Demo
+## 🌐 API Integration
 
-The dashboard allows users to search different cities and displays live weather information including temperature, weather conditions, weather icons, and a 3-day forecast.
+This project uses the free public **Open-Meteo API** to fetch live weather information.
 
-👩‍💻 Developed By
+- **Geocoding API:** Converts city names into geographical coordinates.
+- **Forecast API:** Retrieves current weather conditions and 3-day forecast data.
 
-Khadija Mehmood
+## 🔄 Async Loading and Error Handling
 
-Frontend Web Development Internship
-Neurofive Solutions
+The application uses **JavaScript async/await with the Fetch API** to handle requests to the Open-Meteo weather API. A loading state is displayed while the API request is in progress so users know that data is being fetched. Error handling is implemented using **try/catch** to manage invalid city searches and failed API requests. A friendly error message is displayed whenever weather data cannot be retrieved.
+
+## 📸 Demo
+
+The weather dashboard allows users to search different cities and view live weather details including temperature, weather conditions, icons, and a 3-day forecast.
+
+## 👩‍💻 Developed By
+
+**Khadija Mehmood**
+
+Frontend Web Development Internship  
+**Neurofive Solutions**
