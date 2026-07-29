@@ -1,37 +1,32 @@
-# 🌤️ Weather Dashboard
+🌤️ Weather Dashboard
 
 A responsive weather dashboard that fetches real-time weather information using the Open-Meteo API. Users can search for any city and view current weather conditions along with a 3-day forecast.
 
 The project is built using HTML, CSS, and JavaScript with Fetch API and async/await for handling live weather data.
 
-## 🚀 Features
-
-- Search weather by city name
-- Display current temperature
-- Show weather conditions with icons
-- Display a 3-day weather forecast
-- Loading state while fetching weather data
-- Friendly error handling for invalid city searches
-- Responsive design for different screen sizes
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Fetch API
-- Async/Await
-- Open-Meteo Weather API
-
-## 🌐 API Used
+🚀 Features
+Search weather by city name
+Display current temperature
+Show weather conditions with icons
+Display a 3-day weather forecast
+Loading state while fetching weather data
+Friendly error handling for invalid city searches
+Responsive design for different screen sizes
+🛠️ Technologies Used
+HTML5
+CSS3
+JavaScript (ES6)
+Fetch API
+Async/Await
+Open-Meteo Weather API
+🌐 API Used
 
 This project uses the free public Open-Meteo API. The Geocoding API is used to convert city names into coordinates, and the Forecast API is used to fetch current weather information and a 3-day forecast.
 
-## ⚙️ How to Run the Project
+⚙️ How to Run the Project
 
 Clone the repository:
 
-```bash
 git clone https://github.com/KhadijaMehmood05/neurofive-weather-dashboard.git
 
 Open the project folder in VS Code and run index.html using Live Server. Enter any city name in the search box to view live weather information.
@@ -50,3 +45,4 @@ Khadija Mehmood
 
 Frontend Web Development Internship
 Neurofive Solutions
+
