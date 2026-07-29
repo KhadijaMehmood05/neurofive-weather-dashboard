@@ -23,14 +23,6 @@ Open-Meteo Weather API
 
 This project uses the free public Open-Meteo API. The Geocoding API is used to convert city names into coordinates, and the Forecast API is used to fetch current weather information and a 3-day forecast.
 
-⚙️ How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/KhadijaMehmood05/neurofive-weather-dashboard.git
-
-Open the project folder in VS Code and run index.html using Live Server. Enter any city name in the search box to view live weather information.
-
 🔄 Async Loading and Error Handling
 
 I used JavaScript async/await with the Fetch API to handle requests to the Open-Meteo weather API. A loading message is displayed while the API request is in progress so users know that data is being fetched. I implemented try/catch error handling to manage failed requests and invalid city searches. A friendly error message is shown when weather data cannot be retrieved, providing a better user experience.
@@ -45,4 +37,3 @@ Khadija Mehmood
 
 Frontend Web Development Internship
 Neurofive Solutions
-
